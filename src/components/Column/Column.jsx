@@ -5,9 +5,10 @@ import { GrAdd } from 'react-icons/gr';
 import { LuMoreHorizontal } from 'react-icons/lu';
 import { getPriorityIcon, getStatusIcon } from '../../utils/Helper';
 import UserIcon from '../UserIcon/UserIcon';
+import { groupTicketsByPriority } from '../../utils';
 
 const Column = ({ tickets, grouping, groupBy, userIdToData }) => {
-
+    // console.log(groupTicketsByPriority(tickets))
     const title = useMemo(() => {
         if (grouping === "status") return groupBy;
         if (grouping === "priority") return groupBy;

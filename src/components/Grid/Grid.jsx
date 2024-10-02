@@ -4,7 +4,6 @@ import Column from '../Column/Column';
 
 const Grid = ({ gridData, grouping, userIdToData }) => {
     const keys = useMemo(() => Object.keys(gridData), [gridData]);
-
     return (
         <div className='grid'>
             {keys.map(k => (

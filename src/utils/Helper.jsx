@@ -1,4 +1,4 @@
-import { AiFillCloseCircle, AiFillWarning } from 'react-icons/ai';
+import { AiFillCloseCircle } from 'react-icons/ai';
 import Nopriority from '../assests/icons/No-priority.svg'
 import Highpriority from '../assests/icons/Img - High Priority.svg';
 import Lowpriority from '../assests/icons/Img - Low Priority.svg';
