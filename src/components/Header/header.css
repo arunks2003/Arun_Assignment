@@ -8,5 +8,5 @@ header {
     z-index: 1;
     top: 0;
     background-color: #fff;
-    width: 134%;
+    max-width: 100%;
 }
